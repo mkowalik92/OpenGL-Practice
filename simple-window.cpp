@@ -46,7 +46,7 @@ bool create_main_window( int windowWidth, int windowHeight )
       printf( "Failed to initialize GLFW!\n" );
       return false;
     }
-  glfwWindowHint( GLFW_CONEXT_VERSION_MAJOR, 3 ); // Set minimum OpenGl Version
+  glfwWindowHint( GLFW_CONTEXT_VERSION_MAJOR, 3 ); // Set minimum OpenGl Version
   glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3 ); // Set maximum OpenGl Version
   glfwWindowHint( GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE );
   
