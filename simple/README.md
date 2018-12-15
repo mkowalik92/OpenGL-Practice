@@ -1,4 +1,4 @@
-# How to compile
+# Compilation Instructions
 
 + g++ simple_window.cpp -lglfw
 + g++ simple_triangle.cpp -ldl glad.c -lglfw
